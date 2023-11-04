@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUKINGI SECONDARY SCHOOL</title>
+	<link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/home.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+
+	<!--Preloader-->
+	<div class="preloader">
+		<div class="loader-sorter">
+				 
+			<div class="ring"></div>
+			<div class="ring"></div>
+			<div class="ring"></div>
+			<span>Loading ....</span>
+		</div>     
+ </div>
+ <script>
+ window.addEventListener("load", () => {
+	 const preloader = document.querySelector(".preloader");
+	 preloader.classList.add("load-finish");
+ })
+ </script> 
+
+
+<!--header-->
+	<header class="container">
+		<!--header menu-->
+		<header class="menu">
+			<div class="menu-container">
+				<div class="menu-logo"><img src="esmlogo.png"></div>
+				<div class="menu-part">
+					<div class="menuIcon">
+			      <i class="fa-solid fa-bars"></i>
+					</div>
+					<div class="hyperlink-part">
+						<ul class="link">
+							<li>
+								<a href="./../home.html"><i class="fa-solid fa-home">
+                </i>Home</i></a>
+								<div class="sub-menu-1"></div>
+							</li>
+
+							<li>
+								<a href="./about.html" class="active"><i class="fa-solid fa-user"></i> About</a>
+								<div class="sub-menu-1"></div>
+							</li>
+
+							<li>
+								<a href="./news.html"><i class="fa-solid fa-clone"></i> News</a>
+								<div class="sub-menu-1"></div>
+							</li>
+
+							<li>
+								<a href="./courses.html"><i class="fa-solid fa-graduation-cap"></i> Courses</a>
+								<div class="sub-menu-1"></div>
+							</li>
+
+							<li>
+								<a href="./Library.html"><i class="fa-solid fa-photo-film"></i>   Library</a>
+								<div class="sub-menu-1"></div>
+							</li>
+							<li>
+								<a href="./contact.html"><i class="fa-solid fa-phone"></i> Contact</a>
+								<div class="sub-menu-1"></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</header>
+		<!--mune end-->
+
+		<!--slide start-->
+		<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="carousel-item-content">
+					 <h1 class="carousel-header">Welcome to mukingi secondary School</h1>
+					 <p class="carousel-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia fugiat, repellendus voluptatibus eius delectus in. Voluptatibus, nisi obcaecati harum amet aspern</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					
+					<div class="carousel-item-content">
+					 <h1 class="carousel-header">Welcome to mukingi secondary School</h1>
+					 <p class="carousel-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia fugiat, repellendus voluptatibus eius delectus in. Voluptatibus, nisi obcaecati harum amet aspern</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="carousel-item-content">
+					 <h1 class="carousel-header">Welcome to mukingi secondary School</h1>
+					 <p class="carousel-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia fugiat, repellendus voluptatibus eius delectus in. Voluptatibus, nisi obcaecati harum amet aspern</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	 
+		 <!--carousel end-->
+		 
+	</header>
+
+
+
+  <section class="about">
+    
+    <h1 style="display: flex;flex-direction: row;justify-content: center">Ecole Secondary de Mukingi</h1>
+
+    <div class="introduction2">
+
+      <div class="intro-paragraph2">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sunt ut hic ducimus tempora omnis a suscipit  
+
+          veritatis nulla vitae, quo doloremque voluptatem esse mollitia neque corrupti delectus aliquam consequatur? <br>
+
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, dignissimos nostrum iusto assumenda eaque
+
+          voluptate pariatur temporibus dolorem optio odit placeat cum, suscipit, beatae excepturi eius ea! Autem, 
+
+          dolore illo? <br>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sunt ut hic ducimus tempora omnis a suscipit  
+
+            veritatis nulla vitae, quo doloremque voluptatem esse mollitia neque corrupti delectus aliquam consequatur? <br>
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, dignissimos nostrum iusto assumenda eaque
+
+            voluptate pariatur temporibus dolorem optio odit placeat cum, suscipit, beatae excepturi eius ea! Autem, 
+
+            dolore illo? 
+
+        </p>
+			
+      </div>
+
+			
+
+
+
+		<div class="media-show media-show-bg">
+			<button id="show" class="show">
+				<i class="fa-solid fa-circle-play"></i>
+			</button>
+			<video controls class="box">
+				<source src="./../video/about-video.mp4" type="video/mp4">
+			</video>
+			</div>
+		</div>
+
+     
+
+
+  <script>const dropIcon = document.querySelector('.menuIcon');
+
+		dropIcon.addEventListener('click',() => {
+				let dropMenu = document.querySelector('.hyperlink-part');
+		
+				if (dropMenu.classList.contains('menuShow')){
+						dropMenu.classList.remove('menuShow');
+						dropIcon.innerHTML = '<i class="fa-solid fa-bars"></i>'
+		
+				}
+				
+				else{
+						dropMenu.classList.add('menuShow');
+						dropIcon.innerHTML = '<i class="fa-solid fa-xmark"></i>'
+				}
+		
+		});
+		
+		const video = document.querySelector('.draw-intro');
+		
+		babyeyi.addEventListener('click',() => {
+				let video = document.querySelector('.about-video');
+		
+				if (video.classList.contains('show')){
+						video.classList.remove('show');
+		
+				}
+				
+				else{
+						video.classList.add('show');
+				}
+		
+		});
+		
+		
+		
+
+
+
+
+			let imgShow = document.querySelector('#show');
+			let bg = document.querySelector('.media-show');
+			imgShow.addEventListener('click',() => {
+				let img = document.querySelector('.box');
+				if (!img.classList.contains('container-show')){
+					img.classList.add('container-show');
+					imgShow.classList.add('media-play');
+					bg.classList.remove('media-show-bg');
+				}
+      });
+	</script>
+	</div>
+
+    </div>
+
+
+  </section>
+
+
+  <footer>
+
+    <p>&copy; 2023 My School. All rights reserved.</p>
+
+  </footer>
+
+	<script src="./../javascript/home.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
