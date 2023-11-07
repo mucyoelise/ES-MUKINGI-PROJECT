@@ -358,7 +358,7 @@ ul.link li a.active{
     min-height: 540px;
     display: flex;
     overflow: hidden;
-    padding: 3rem;
+    padding: 2rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -372,50 +372,18 @@ ul.link li a.active{
 
 }
 
-.media-show-bg{
-    background-image: url('./../../images/profile.png');
-    background-size: 100%;
-    background-position: center;
-}
 .media-show{
-    position: relative;
-    right: 0;
-    width: 48%;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-right: 0;
+  position: relative;
+  right: 0;
+  width: 48%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
-#show{
-    position: absolute;
-    right: 50%;
-    z-index: 888;
-    outline: none;
-    background: none;
-    font-size: 3rem;
-    color: hsl(236, 100%, 50%);
-    border: none;
-}
-.box{
-    display: none;
-    visibility: hidden;
-    position: absolute;
-    right: 0;
-    width: 50vw;
-    height: 80%;
-}
-  
-  .container-show{
-    display: block;
-    visibility: visible;
-  }
 
-  .media-play{
-    display: none;
-    visibility: hidden;
-    pointer-events: none;
-  }
 
 .about{
     background-color: aqua;
@@ -455,6 +423,12 @@ footer {
 
 
 @media (max-width:768px){
+  body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
     header.container{
         min-height: 70vh;
     }
@@ -484,7 +458,7 @@ footer {
         min-width: 100vw;
         background-color: transparent!important;
         position: fixed;
-        z-index: 5000;
+        z-index: 5555;
         overflow: hidden;    
     }
     .menu-part .menuShow ul{
@@ -507,7 +481,7 @@ footer {
             min-height: fit-content;
         }
         to{
-            height: 70vh;
+            height: 100vh;
         }
     }
     .menu-part .menuShow ul li a{
@@ -549,17 +523,6 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    .box{
-        position: relative;
-        width: 100%;
-        height: 400px;
-    }
-    #show {
-        width: 80vw;
-        position: absolute;
-        margin: auto;
-        right: 0;
     }
     .carousel-inner .carousel-item{
       height: 100%;

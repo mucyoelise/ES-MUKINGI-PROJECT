@@ -421,24 +421,7 @@ section.esmtraits{
         color: var(--light);
     }
 
-    /*
-    section.features .main-feature, section.about .row, 
-    
-    section.features .main-feature{
-        display:flex;
-        justify-content:space-between;
-        gap:20px;
-    }
-    .features .main-feature-box{
-    margin:30px 10px;
-    background-color : var(--light);
-    position :relative;
-    z-index :50;
-    transition : .5s;
-    }
-    .features .main-feature-box 
-    */
-    
+
     /**********************
     section about
     ************************/
