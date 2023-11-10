@@ -326,6 +326,11 @@ ul.link li a.active{
 }
 .carousel-item-content p{
     text-align: center;
+    color: whitesmoke;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 200;
+
+
 }
 .link-container{
     width: 100%;

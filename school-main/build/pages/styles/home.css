@@ -265,7 +265,7 @@ ul.link li a.active{
     top: 0;
     right: 0;
     left: 0;
-    height: 90%;
+    height: 98%;
     z-index: -1000;
 }
 .carousel-inner{
@@ -300,11 +300,11 @@ ul.link li a.active{
     top: 40%;
     width: 80%;
     z-index: 33;
-    border: 1px solid hsl(120, 0%, 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    padding-top: 60px;
 }
 .carousel-item-content h1{
     color: #fff;
@@ -314,6 +314,10 @@ ul.link li a.active{
 }
 .carousel-item-content p{
     text-align: center;
+    color: whitesmoke;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 200;
+
 }
 
 .news-logo{
@@ -505,10 +509,7 @@ footer {
     
     }
     .carousel-inner .carousel-item .carousel-item-content{
-        font-size: small;
-    }
-    .carousel-item-content h1{
-        font-size: 1.3em;
+        font-size: medium;
     }
     .introduction2{
         height: auto;
